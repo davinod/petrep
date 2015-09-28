@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form to create a new Pet</title>
+	</head>
+	<body>
+		<form action="http://localhost:8888/Petd_Services/pets" method="POST">
+	  		<label for="id">ID</label>
+	  		<input name="id" />
+	  		<br/>
+	  		
+	  		<label for="name">Pet Name</label>
+	  		<input name="name" />
+	  		<br/>
+	  		
+	  		<label for="type">Pet Name</label>
+	  		<select name="type">
+	  			<option>DOG</option>
+	  			<option>CAT</option>
+	  			<option>PUPPY</option>
+	  			<option>KITTEN</option>
+	  		</select>	  		
+	  		<br/>
+	  		
+	  		<input type="submit" value="Submit" />
+		</form>
+	</body>
+</html>
